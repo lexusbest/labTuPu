@@ -20,7 +20,11 @@ public class IrakurriTest {
 		aktoreKat=null;
 	}
 
+<<<<<<< HEAD
 	//@Test
+=======
+	@Test
+>>>>>>> 5e498f1e111a28036192281e7e9c36fae7abb35f
 	public void testKargatu() {
 		i = new Irakurri();
 		try{
@@ -37,11 +41,19 @@ public class IrakurriTest {
 		//aktoreKat.inprimatu(aktoreKat.taulaSortuOrdenatuGabe());
 	}
 	
+<<<<<<< HEAD
 	//@Test
 	public void testAktoreFitxSortu(){
 		i = new Irakurri();
 		try{
 			i.kargatu("C://Users/Iker/Desktop/Program/DEA/src/lab1/aaa.txt");
+=======
+	@Test
+	public void testAktoreFitxSortu(){
+		i = new Irakurri();
+		try{
+			i.kargatu("D:\\lanlekua\\DEA\\src\\lab1\\actors-small.txt");
+>>>>>>> 5e498f1e111a28036192281e7e9c36fae7abb35f
 			Irakurri.aktoreFitxSortu(aktoreKat.AktoreenIzenenLista());
 		} catch (Exception e){
 			System.out.println(e.getMessage());
@@ -56,6 +68,10 @@ public class IrakurriTest {
 			System.out.println(e.getMessage());
 		}
 		Aktorea[] lista = aktoreKat.ordenatu();
+<<<<<<< HEAD
 		aktoreKat.inprimatu(lista);
+=======
+		//aktoreKat.inprimatu(lista);
+>>>>>>> 5e498f1e111a28036192281e7e9c36fae7abb35f
 	}
 }
